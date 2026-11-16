@@ -1,0 +1,13 @@
+{
+ "principal": {
+  "nombre": "Voz clonada Juan Camilo",
+  "voice_id": "OYeLKhisaXmqKhZFxjns",
+  "uso": "Toda la voz de @hablaelderecho. Clon de la voz real de Juan Camilo (plan Starter, licencia comercial)."
+ },
+ "pronunciacion": {
+  "DIAN": "dián",
+  "CPACA": "ce-pe-á-ca",
+  "SIC": "sic",
+  "T-025": "te cero veinticinco"
+ }
+}
