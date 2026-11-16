@@ -4,7 +4,8 @@
   "voice_id": "OYeLKhisaXmqKhZFxjns",
   "uso": "Toda la voz de @hablaelderecho. Clon de la voz real de Juan Camilo (plan Starter, licencia comercial).",
   "modelo": "eleven_v4",
-  "nota": "Usar siempre eleven_v4 con marcas de interpretación. multilingual_v2 descartado por Juan Camilo (16-nov-2026): cambia el timbre."
+  "nota": "Usar siempre eleven_v4 con marcas de interpretación. multilingual_v2 y eleven_v3 descartados por Juan Camilo (16-nov-2026): cambian el timbre. El golpe de fondo de v4 se corrige en el robot: highpass ~80 Hz, loudnorm a -14 LUFS y limitador.",
+  "procesado": "highpass=f=80,loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.89"
  },
  "pronunciacion": {
   "DIAN": "dián",
