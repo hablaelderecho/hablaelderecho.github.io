@@ -48,3 +48,12 @@ Actúas como productor audiovisual y director de fotografía de video vertical p
 - Archivo: `video/tomas/<categoria>/<tema>-<n>.mp4`, en minúsculas y sin tildes.
 - Instrucción en inglés: "Vertical 9:16 editorial shot. [QUÉ SE VE]. [MOVIMIENTO LENTO]. [LUZ]. Deep ink-blue and warm ivory palette. Upper third kept clean for on-screen text. Realistic, calm, no faces, no text, no logos. 5 seconds, no audio."
 - **Biblioteca objetivo (20 tomas):** firma de un contrato (solo manos); código abierto con resaltador; sello de lacre cayendo sobre un documento; carpetas en un escritorio; contenedores en el puerto de Barranquilla al atardecer; paquete de compra internacional llegando a una casa; tienda de barrio abriendo; taller de un emprendedor; llaves de un apartamento sobre un contrato; fila de personas de espaldas en una oficina genérica; balanza de la justicia en un escritorio; martillo de juez sobre madera; reloj de pared marcando un plazo; calendario con una fecha marcada; celular con una notificación genérica; biblioteca jurídica en paneo lento; ventana con la ciudad al fondo; cuaderno con apuntes a mano; pareja de espaldas revisando papeles; malecón del río Magdalena como cierre de marca.
+
+## 7. Cadena de producción del avatar (probada el 16 de noviembre de 2026)
+
+1. **Video base:** clip real de Juan Camilo, vertical 1080×1920, de 25 a 40 segundos, cámara fija. Se graba una vez y se reutiliza.
+2. **Vestuario y fondo:** si el clip no está grabado en el set, se edita una sola vez con Seedance 2.5 en modo `video_edit` en Higgsfield (blazer azul, camisa celeste, biblioteca de fondo). Cuesta unos 20 créditos por segundo en 1080p. Antes de editar un clip largo, se prueba con 5 segundos.
+3. **Voz:** guion aprobado → voz clonada en ElevenLabs con `eleven_v4` (ver `video/voces.json`).
+4. **Lip-sync:** Sync Lipsync 3 en Higgsfield, modo `cut_off`, sobre el video base ya editado. Cuesta cerca de 3,6 créditos por segundo de audio. No se hace en ElevenLabs: allá el mismo modelo cuesta unos 800 créditos por segundo.
+5. **Acabado (robot):** etiqueta de la serie arriba, titular en recuadro azul tinta, @hablaelderecho, subtítulos en bloques cortos con palabras clave en rojo lacre, música de `video/musica/` bajo la voz.
+6. **Audio:** la voz se procesa aparte (`highpass=f=80, loudnorm=I=-14, alimiter`, remuestreo a 48 kHz) y después se mezcla con la música. Si se procesa dentro de la misma cadena de la mezcla, el audio se corta antes de tiempo.
