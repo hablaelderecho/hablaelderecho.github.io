@@ -8,7 +8,7 @@ Caterpillar, el sector minero-energético o clientes conocidos: eso no se vuelve
 contenido, se le avisa a Juan Camilo.
 No inventa: si una búsqueda falla, lo deja anotado y sigue.
 """
-import datetime as dt, email.utils, json, os, urllib.parse, urllib.request
+import datetime as dt, email.utils, json, os, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -28,8 +28,15 @@ def rss(q):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": f"{q} when:{DIAS}d", "hl": "es-419", "gl": "CO", "ceid": "CO:es-419"})
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (hablaelderecho-bot)"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        raiz = ET.fromstring(r.read())
+    for intento in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raiz = ET.fromstring(r.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or intento == 2:
+                raise
+            time.sleep(20 * (intento + 1))
     for it in raiz.iter("item"):
         fecha = it.findtext("pubDate")
         try:
@@ -47,6 +54,7 @@ def main():
     for serie, consultas in SERIES.items():
         salida[serie] = []
         for q in consultas:
+            time.sleep(4)
             try:
                 for n in rss(q):
                     clave = (n["titular"] or "").lower()[:90]
