@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-21_debate-iva",
+ "tipo": "carrusel",
+ "serie": "¿TÚ QUÉ OPINAS?",
+ "publicar_en": "2026-11-21T17:00:00Z",
+ "redes": [
+  "instagram",
+  "facebook"
+ ],
+ "laminas": [
+  {
+   "portada": true,
+   "titulo": "¿Las compras por internet de menos de US$200 deberían pagar IVA?",
+   "texto": "Opinión. Abro debate."
+  },
+  {
+   "titulo": "Lo que pasó",
+   "texto": "A finales de 2025, un decreto de emergencia económica bajó a US$50 el tope sin IVA para envíos pequeños. En 2026 la Corte dejó sin efectos el decreto de emergencia."
+  },
+  {
+   "titulo": "A favor de cobrarlo",
+   "texto": "El comercio nacional paga IVA y compite en desventaja. El Estado deja de recaudar en un momento de déficit."
+  },
+  {
+   "titulo": "En contra",
+   "texto": "Encarece lo que compran las familias, que en su mayoría son compras pequeñas. Y un impuesto así debería pasar por el Congreso, no por una emergencia."
+  },
+  {
+   "titulo": "Mi opinión",
+   "texto": "El debate de fondo es legítimo. Lo que no se negocia es la forma: los impuestos los crea el Congreso, no un decreto de emergencia.",
+   "fuente": "Constitución, art. 338"
+  },
+  {
+   "cierre": true,
+   "titulo": "¿Tú qué opinas?",
+   "texto": "¿Sí o no al IVA en compras pequeñas? Te leo en los comentarios."
+  }
+ ],
+ "caption": "¿Sí o no al IVA en las compras por internet de menos de US$200? Te dejo los argumentos de los dos lados y mi opinión: el debate de fondo es legítimo, pero los impuestos se discuten en el Congreso. ¿Tú qué dices?\n\n#IVA #ComprasInternacionales #Debate #DerechoColombiano #HablaElDerecho",
+ "aprobado": true,
+ "aprobado_por": "Juan Camilo (chat, 16-nov-2026)"
+}

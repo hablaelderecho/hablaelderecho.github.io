@@ -1,0 +1,52 @@
+{
+ "id": "2026-11-18_aduana-compras",
+ "tipo": "carrusel",
+ "serie": "ADUANA SIN CUENTO",
+ "publicar_en": "2026-11-18T23:30:00Z",
+ "redes": [
+  "instagram",
+  "facebook"
+ ],
+ "laminas": [
+  {
+   "portada": true,
+   "titulo": "¿Pagas impuestos por lo que compras en Shein, Temu o Amazon?",
+   "texto": "La respuesta corta: depende de dos cosas."
+  },
+  {
+   "titulo": "Las dos preguntas",
+   "lista": [
+    "¿Cuánto vale el envío?",
+    "¿De dónde viene?"
+   ]
+  },
+  {
+   "titulo": "Arancel",
+   "texto": "Si el envío vale hasta US$200 FOB (sin contar el flete) y llega por tráfico postal o envío urgente, no paga arancel.",
+   "fuente": "Decreto 1165 de 2019, art. 261, parágrafo"
+  },
+  {
+   "titulo": "IVA",
+   "texto": "Es otra historia: la exclusión hasta US$200 solo aplica cuando un tratado de libre comercio obliga a no cobrarlo.",
+   "fuente": "Estatuto Tributario, art. 428, lit. j · DIAN, Concepto 1470 de 2026"
+  },
+  {
+   "titulo": "¿Y el tope de US$50?",
+   "texto": "El decreto de emergencia que lo bajaba quedó sin efectos: la Corte suspendió el decreto matriz en enero y en abril lo declaró inexequible.",
+   "fuente": "Auto 082 de 2026 · Sentencia C-075 de 2026"
+  },
+  {
+   "titulo": "¿Pagaste IVA en enero por una compra pequeña?",
+   "texto": "La DIAN se pronunció sobre la devolución en su Concepto 703 de 2026. Revisa tu caso.",
+   "fuente": "DIAN, Concepto 703 de 2026"
+  },
+  {
+   "cierre": true,
+   "titulo": "Guárdalo antes de tu próxima compra",
+   "texto": "Y mándaselo a quien vive pidiendo por internet. Cada envío depende de su valor y su origen."
+  }
+ ],
+ "caption": "¿Tu paquete de Shein, Temu o Amazon paga impuestos? Depende de cuánto vale y de dónde viene. Hasta US$200 no paga arancel; el IVA solo se excluye cuando un tratado de libre comercio lo exige. Y el tope de US$50 ya no rige.\n\nGuárdalo antes de tu próxima compra.\n\nInformación general, no asesoría para un caso concreto.\n#ComprasInternacionales #DIAN #Aduana #IVA #HablaElDerecho",
+ "aprobado": true,
+ "aprobado_por": "Juan Camilo (chat, 16-nov-2026)"
+}

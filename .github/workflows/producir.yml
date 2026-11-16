@@ -1,0 +1,56 @@
+name: Producir piezas
+
+on:
+  workflow_dispatch:
+    inputs:
+      pieza:
+        description: "id de la pieza (vacío = todas las que falten)"
+        default: ""
+  push:
+    branches: [main]
+    paths: ["bot/piezas/**", "video/render_*.py", ".github/workflows/producir.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-escritura
+  cancel-in-progress: false
+
+jobs:
+  producir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow
+      - name: Producir lo que falte
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          SOLO: ${{ github.event.inputs.pieza }}
+        run: |
+          for f in bot/piezas/*.json; do
+            id=$(basename "$f" .json)
+            [ -n "$SOLO" ] && [ "$SOLO" != "$id" ] && continue
+            tipo=$(python -c "import json;print(json.load(open('$f'))['tipo'])")
+            ok=$(python -c "import json;print(json.load(open('$f')).get('aprobado', False))")
+            [ "$ok" != "True" ] && { echo "$id: sin aprobar, no se produce"; continue; }
+            if [ "$tipo" = "carrusel" ] && [ ! -f "redes/$id/01.jpg" -o -n "$SOLO" ]; then
+              python video/render_carrusel.py "$f"
+            fi
+            if [ "$tipo" = "reel" ] && [ ! -f "redes/$id/reel.mp4" -o -n "$SOLO" ]; then
+              python video/render_voz.py "$f"
+            fi
+          done
+      - name: Guardar
+        run: |
+          git config user.name hablaelderecho-bot && git config user.email hablaelderecho-bot@users.noreply.github.com
+          git add redes
+          git diff --cached --quiet && exit 0
+          git commit -qm "Piezas producidas $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

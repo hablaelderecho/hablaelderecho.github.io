@@ -1,0 +1,33 @@
+name: Buscar temas
+
+on:
+  schedule:
+    - cron: "15 10 * * *"   # 5:15 a. m. de Bogotá
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["etl/**", ".github/workflows/temas.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-escritura
+  cancel-in-progress: false
+
+jobs:
+  temas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python etl/temas.py
+      - name: Guardar
+        run: |
+          git config user.name hablaelderecho-bot && git config user.email hablaelderecho-bot@users.noreply.github.com
+          git add bot/temas
+          git diff --cached --quiet && exit 0
+          git commit -qm "Temas $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
