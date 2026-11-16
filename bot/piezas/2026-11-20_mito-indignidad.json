@@ -11,7 +11,7 @@
   "instagram",
   "facebook"
  ],
- "aprobado": false,
+ "aprobado": true,
  "clave": [
   "Falso.",
   "indigno",
@@ -23,5 +23,6 @@
  "guion": "[confidently] El papá que te abandonó puede quedarse sin tu herencia. [short pause] Mucha gente cree que, por ser el padre, hereda sí o sí. Falso. Desde la Ley 1893 de 2018, el artículo 1025 del Código Civil dice que es indigno de heredar quien abandonó sin justa causa a la persona de cuya sucesión se trata, estando obligado a darle alimentos. [seriously] Y funciona en las dos vías: para el padre que abandonó al hijo y para el hijo que abandonó al padre. Ojo, no es automático: un juez tiene que declarar la indignidad en un proceso, y el abandono hay que probarlo. [warmly] Cada caso es distinto. Mándaselo a quien cree que la sangre lo hereda todo.",
  "fuente": "Fuente: Código Civil, art. 1025, num. 6 (Ley 1893 de 2018)",
  "caption": "¿El papá que te abandonó te hereda? No necesariamente. Desde la Ley 1893 de 2018, el artículo 1025 del Código Civil declara indigno de heredar a quien abandonó sin justa causa a la persona de cuya sucesión se trata, estando obligado a darle alimentos. Aplica en las dos vías, pero no es automático: un juez debe declararlo y el abandono se prueba.\n\nMándaselo a quien cree que la sangre lo hereda todo.\n\nInformación general, no asesoría para un caso concreto. Voz generada con IA.\n#Herencia #Sucesiones #DerechoDeFamilia #DerechoColombiano #HablaElDerecho",
- "musica": "institucional"
+ "musica": "institucional",
+ "aprobado_por": "Juan Camilo (chat, 16-nov-2026)"
 }
