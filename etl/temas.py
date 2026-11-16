@@ -17,7 +17,7 @@ SERIES = {
     "Cláusula trampa (comercial)": ["Superintendencia de Industria y Comercio sanción consumidor", "contrato cláusula abusiva Colombia", "Supersociedades"],
     "Aduana sin cuento (aduanero)": ["DIAN aduana importaciones", "DIAN compras internacionales", "aranceles Colombia decreto"],
     "El Estado te debe (administrativo)": ["Consejo de Estado fallo", "derecho de petición entidad", "silencio administrativo"],
-    "Mito civil (civil)": ["Corte Suprema sala civil herencia", "arrendamiento ley inquilinos Colombia", "unión marital de hecho Corte"],
+    "Mito civil (civil)": ["Corte Suprema herencia sucesión", "indignidad sucesoral", "arrendamiento inquilinos ley", "unión marital de hecho Corte"],
 }
 CONFLICTO = ["gecolsa", "relianz", "caterpillar", "cerro matoso", "cerrejón", "cerrejon", "minería", "mineria",
              "minero", "carbón", "carbon", "continental gold", "buriticá", "repsol", "slb", "schlumberger"]
@@ -26,7 +26,7 @@ DIAS = 4
 
 def rss(q):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": f"{q} when:{DIAS}d", "hl": "es-419", "gl": "CO", "ceid": "CO:es-419"})
+        {"q": f"{q} Colombia when:{DIAS}d", "hl": "es-419", "gl": "CO", "ceid": "CO:es-419"})
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (hablaelderecho-bot)"})
     for intento in range(3):
         try:
@@ -61,6 +61,8 @@ def main():
                     if not clave or clave in vistos:
                         continue
                     vistos.add(clave)
+                    if any(x in (n["enlace"] or "") + " " + (n["fuente"] or "").lower() for x in (".cl", ".es", ".mx", ".ar", ".pe", "infobae.com/espana", "law & trends")):
+                        continue  # solo Colombia
                     if any(c in clave for c in CONFLICTO):
                         alertas.append({**n, "serie": serie, "motivo": "posible conflicto de interés"})
                         continue
