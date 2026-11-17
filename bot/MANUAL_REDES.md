@@ -101,7 +101,7 @@ El robot de temas revisa cada madrugada los comunicados de la Corte Constitucion
 
 Base "Panel de trabajo Agentes", con tablas propias de la marca (no se mezclan con Marea Pública):
 
-- **Piezas · Habla el Derecho:** una fila por pieza. Estados: Propuesto → Aprobado → Producido → Programado → Publicado (o Retenido / Descartado). Juan Camilo aprueba aquí cambiando el Estado a "Aprobado" o en el chat del domingo; los cambios que quiera van en "Comentarios de Juan Camilo". Las métricas de cada pieza se anotan en la misma fila.
+- **Piezas · Habla el Derecho:** una fila por pieza. Estados: Propuesto → Aprobado → Producido → Programado → Publicado (o Retenido / Descartado). Juan Camilo aprueba aquí cambiando el Estado a "Aprobado" o en el chat del domingo; los cambios que quiera van en "Comentarios de Juan Camilo". Las métricas de cada pieza se anotan en la misma fila. Si aprueba en el chat, Claude pasa la pieza a "Aprobado" en el Panel en ese mismo momento, antes de producirla, con "Aprobado por: Juan Camilo (chat, fecha)".
 - **Posibles clientes · Habla el Derecho:** mensajes directos con un caso concreto. Solo un resumen, sin documentos ni datos sensibles. Los llena y gestiona Juan Camilo.
 - **Inscritos · Habla el Derecho:** quienes dejan su correo para guías o infoproductos, siempre con la casilla de autorización de datos marcada.
 
