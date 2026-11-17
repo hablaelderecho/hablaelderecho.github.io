@@ -96,3 +96,13 @@ El robot de temas revisa cada madrugada los comunicados de la Corte Constitucion
 - **Domingo:** la tarea semanal analiza y propone las 6 piezas; Juan Camilo aprueba en una sola sesión; se producen y se programan.
 - **Lunes a sábado:** el publicador sale solo y retiene lo que venció o cuya norma cambió. La revisión diaria solo escribe si hay algo que atender.
 - **Lo urgente** (un fallo grande, una reforma) se propone como pieza extra y solo sale con aprobación.
+
+## 11. Panel en Airtable
+
+Base "Panel de trabajo Agentes", con tablas propias de la marca (no se mezclan con Marea Pública):
+
+- **Piezas · Habla el Derecho:** una fila por pieza. Estados: Propuesto → Aprobado → Producido → Programado → Publicado (o Retenido / Descartado). Juan Camilo aprueba aquí cambiando el Estado a "Aprobado" o en el chat del domingo; los cambios que quiera van en "Comentarios de Juan Camilo". Las métricas de cada pieza se anotan en la misma fila.
+- **Posibles clientes · Habla el Derecho:** mensajes directos con un caso concreto. Solo un resumen, sin documentos ni datos sensibles. Los llena y gestiona Juan Camilo.
+- **Inscritos · Habla el Derecho:** quienes dejan su correo para guías o infoproductos, siempre con la casilla de autorización de datos marcada.
+
+El repositorio sigue siendo lo que publica: el Panel refleja su estado y es donde se aprueba. La revisión diaria mantiene los estados al día.
