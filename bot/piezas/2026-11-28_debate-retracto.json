@@ -1,0 +1,52 @@
+{
+ "id": "2026-11-28_debate-retracto",
+ "tipo": "carrusel",
+ "serie": "¿TÚ QUÉ OPINAS?",
+ "publicar_en": "2026-11-28T17:00:00Z",
+ "redes": [
+  "instagram",
+  "facebook"
+ ],
+ "ganchos": [
+  "¿El derecho a arrepentirte debería valer también en la tienda física?",
+  "Compraste en la tienda por impulso: ¿debería la ley dejarte devolverlo?",
+  "Retracto para todos: ¿protección o costo que pagamos todos?"
+ ],
+ "gancho_elegido": 0,
+ "laminas": [
+  {
+   "portada": true,
+   "titulo": "¿El derecho a arrepentirte debería valer también en la tienda física?",
+   "texto": "Opinión. Abro debate."
+  },
+  {
+   "titulo": "Cómo es hoy",
+   "texto": "El retracto de 5 días hábiles aplica a compras a distancia, ventas financiadas por el vendedor y tiempo compartido. En la tienda no hay retracto: hay garantía si el producto sale malo.",
+   "fuente": "Ley 1480 de 2011, arts. 7 y 47"
+  },
+  {
+   "titulo": "A favor de extenderlo",
+   "texto": "En la tienda también se compra por impulso, con presión del vendedor y ofertas de un día. Y muchas marcas ya aceptan cambios por política propia."
+  },
+  {
+   "titulo": "En contra",
+   "texto": "En la tienda viste, tocaste y te probaste el producto. Obligar a recibir devoluciones sube costos, y el pequeño comercio lo pagaría con precios más altos."
+  },
+  {
+   "titulo": "Mi opinión",
+   "texto": "No lo extendería por ley a todo. Pero las tiendas deberían decir claro, antes de pagar, si aceptan cambios. Y negar la garantía porque el producto estaba en oferta sí es ilegal.",
+   "fuente": "Ley 1480 de 2011, art. 7, parágrafo"
+  },
+  {
+   "cierre": true,
+   "titulo": "¿Tú qué opinas?",
+   "texto": "¿Retracto también en la tienda física, sí o no? Te leo en los comentarios."
+  }
+ ],
+ "verificar_norma": [
+  "Ley 1480 de 2011, arts. 7 y 47"
+ ],
+ "norma_verificada": true,
+ "caption": "Después del Black Friday, la pregunta: ¿el derecho de retracto debería valer también en la tienda física? Hoy solo aplica a compras a distancia, ventas financiadas por el vendedor y tiempo compartido (Ley 1480 de 2011, art. 47). Te dejo los argumentos de los dos lados y mi opinión, marcada como opinión. ¿Tú qué dices?\n\nInformación general, no asesoría para un caso concreto.\n#BlackFriday #DerechoDeRetracto #Consumidor #Debate #HablaElDerecho",
+ "aprobado": false
+}

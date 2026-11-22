@@ -1,0 +1,63 @@
+{
+ "id": "2026-11-25_aduana-maleta",
+ "tipo": "carrusel",
+ "serie": "ADUANA SIN CUENTO",
+ "publicar_en": "2026-11-25T23:30:00Z",
+ "redes": [
+  "instagram",
+  "facebook"
+ ],
+ "ganchos": [
+  "¿Viajas en diciembre? Esto puedes traer en la maleta sin pagar impuestos",
+  "US$2.000 sin pagar nada: el cupo que casi nadie conoce",
+  "Lo que te pueden decomisar en el aeropuerto aunque sea para ti"
+ ],
+ "gancho_elegido": 0,
+ "laminas": [
+  {
+   "portada": true,
+   "titulo": "¿Viajas en diciembre? Esto puedes traer en la maleta sin pagar impuestos",
+   "texto": "Las reglas del equipaje del viajero, sin cuento."
+  },
+  {
+   "titulo": "Lo tuyo no cuenta",
+   "texto": "La ropa y lo que usas en el viaje son efectos personales: no suman al cupo.",
+   "fuente": "Decreto 1165 de 2019, arts. 3 y 268"
+  },
+  {
+   "titulo": "Hasta US$2.000: sin tributos",
+   "texto": "Lo que traigas en tu equipaje hasta por US$2.000 entra sin pagar el tributo único.",
+   "fuente": "Decreto 1165 de 2019, art. 268"
+  },
+  {
+   "titulo": "Otros US$3.000, pagando 15%",
+   "texto": "Si estuviste afuera al menos 5 días, puedes traer hasta US$3.000 más con un tributo único del 15%. Ese cupo se usa una vez al año.",
+   "fuente": "Decreto 1165 de 2019, arts. 269 y 270"
+  },
+  {
+   "titulo": "Ojo con las cantidades",
+   "lista": [
+    "Hasta 3 unidades de electrodomésticos, artículos deportivos o de tu oficio",
+    "Hasta 10 unidades de la misma clase de lo demás",
+    "Más que eso ya se ve como comercial"
+   ],
+   "fuente": "Decreto 1165 de 2019, arts. 266 y 269"
+  },
+  {
+   "titulo": "Si te pasas",
+   "texto": "Lo que exceda los cupos se puede aprehender y decomisar. El cupo es personal: no se presta. Los menores tienen la mitad.",
+   "fuente": "Decreto 1165 de 2019, arts. 267, 272 y 274"
+  },
+  {
+   "cierre": true,
+   "titulo": "Guárdalo antes de hacer la maleta",
+   "texto": "Y mándaselo a quien viene del exterior en diciembre. Cada viaje depende de lo que traes y cuánto vale."
+  }
+ ],
+ "verificar_norma": [
+  "Decreto 1165 de 2019, arts. 266 a 274"
+ ],
+ "norma_verificada": true,
+ "caption": "¿Viajas en diciembre? Tu ropa y lo que usas en el viaje no cuentan. Además, puedes traer en tu equipaje hasta US$2.000 sin pagar tributos y, si estuviste afuera al menos 5 días, hasta US$3.000 más pagando un tributo único del 15% (una vez al año). Ojo con las cantidades: lo que se vea comercial o exceda los cupos se puede decomisar. Decreto 1165 de 2019, arts. 266 a 274.\n\nGuárdalo antes de hacer la maleta.\n\nInformación general, no asesoría para un caso concreto.\n#DIAN #Aduana #Viajeros #Equipaje #HablaElDerecho",
+ "aprobado": false
+}

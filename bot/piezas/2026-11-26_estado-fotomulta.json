@@ -1,0 +1,39 @@
+{
+ "id": "2026-11-26_estado-fotomulta",
+ "tipo": "reel",
+ "serie": "EL ESTADO TE DEBE",
+ "titular": [
+  "¿Prestaste el carro",
+  "y te llegó la fotomulta?"
+ ],
+ "publicar_en": "2026-11-26T23:30:00Z",
+ "redes": [
+  "instagram",
+  "facebook"
+ ],
+ "ganchos": [
+  "Prestaste el carro y la fotomulta te llegó a ti.",
+  "No pagas la fotomulta solo por ser el dueño del carro.",
+  "La fotomulta tiene plazo para llegarte. ¿Lo sabías?"
+ ],
+ "gancho_elegido": 0,
+ "clave": [
+  "dueño",
+  "C-038",
+  "solidario",
+  "tres",
+  "hábiles",
+  "once",
+  "defenderte"
+ ],
+ "guion": "[confidently] Prestaste el carro y la fotomulta te llegó a ti. Tranquilo: no la pagas solo por ser el dueño. [short pause] En la Sentencia C-038 de 2020, la Corte Constitucional tumbó la regla de la Ley 1843 de 2017 que hacía al propietario responsable solidario con el conductor. Para sancionarte tienen que demostrar que la infracción es tuya. [seriously] La notificación sí te llega, porque eres el dueño registrado en el RUNT, y la autoridad debe enviarla dentro de los tres días hábiles siguientes a validar el comparendo. [short pause] Desde que la recibes tienes once días hábiles para comparecer y defenderte. [warmly] Mándaselo a quien siempre te pide el carro prestado.",
+ "fuente": "Fuente: Corte Constitucional, C-038 de 2020 · Ley 1843 de 2017, art. 8",
+ "verificar_norma": [
+  "Ley 1843 de 2017, art. 8",
+  "Sentencia C-038 de 2020"
+ ],
+ "norma_verificada": true,
+ "caption": "¿Prestaste el carro y te llegó la fotomulta? En la Sentencia C-038 de 2020, la Corte Constitucional declaró inexequible la regla de la Ley 1843 de 2017 que hacía al propietario solidariamente responsable con el conductor: no pagas solo por ser el dueño. La notificación sí te llega como propietario, se debe enviar dentro de los 3 días hábiles siguientes a la validación del comparendo y tienes 11 días hábiles para comparecer. Cada caso es distinto.\n\nMándaselo a quien siempre te pide el carro prestado.\n\nInformación general, no asesoría para un caso concreto. Voz generada con IA.\n#Fotomultas #Transito #Comparendo #DerechoColombiano #HablaElDerecho",
+ "musica": "institucional",
+ "aprobado": false
+}
