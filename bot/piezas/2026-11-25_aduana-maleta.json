@@ -36,12 +36,8 @@
   },
   {
    "titulo": "Ojo con las cantidades",
-   "lista": [
-    "Hasta 3 unidades de electrodomésticos, artículos deportivos o de tu oficio",
-    "Hasta 10 unidades de la misma clase de lo demás",
-    "Más que eso ya se ve como comercial"
-   ],
-   "fuente": "Decreto 1165 de 2019, arts. 266 y 269"
+   "fuente": "Decreto 1165 de 2019, arts. 266 y 269",
+   "texto": "Con el cupo del 15%: hasta 3 unidades de electrodomésticos, artículos deportivos o de tu oficio, y hasta 10 iguales de lo demás. Más que eso ya se ve comercial."
   },
   {
    "titulo": "Si te pasas",
